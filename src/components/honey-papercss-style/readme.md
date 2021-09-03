@@ -1,4 +1,4 @@
-# honey-template
+# honey-papercss-style
 
 <!-- Auto Generated Below -->
 
@@ -18,19 +18,19 @@
 
 ### Depends on
 
-- [honey-template-header](header)
-- [honey-template-feed](news)
-- [honey-template-feeds](feeds)
-- [honey-template-statistic](statistic)
+- [honey-papercss-style-header](header)
+- [honey-papercss-style-feed](news)
+- [honey-papercss-style-feeds](feeds)
+- [honey-papercss-style-statistic](statistic)
 
 ### Graph
 ```mermaid
 graph TD;
-  honey-template --> honey-template-header
-  honey-template --> honey-template-feed
-  honey-template --> honey-template-feeds
-  honey-template --> honey-template-statistic
-  style honey-template fill:#f9f,stroke:#333,stroke-width:4px
+  honey-papercss-style --> honey-papercss-style-header
+  honey-papercss-style --> honey-papercss-style-feed
+  honey-papercss-style --> honey-papercss-style-feeds
+  honey-papercss-style --> honey-papercss-style-statistic
+  style honey-papercss-style fill:#f9f,stroke:#333,stroke-width:4px
 ```
 
 ----------------------------------------------

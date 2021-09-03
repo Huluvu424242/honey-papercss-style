@@ -1,5 +1,5 @@
 {
-  "name": "@huluvu424242/honey-template",
+  "name": "@huluvu424242/honey-papercss-style",
   "version": "0.0.4",
   "description": "News reader web component for custom urls.",
   "main": "dist/index.cjs.js",
@@ -9,14 +9,14 @@
   "types": "dist/custom-elements/index.d.ts",
   "collection": "dist/collection/collection-manifest.json",
   "collection:main": "dist/collection/index.js",
-  "unpkg": "dist/honey-template/honey-template.js",
+  "unpkg": "dist/honey-papercss-style/honey-papercss-style.js",
   "files": [
     "dist/",
     "loader/"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Huluvu424242/honey-template.git"
+    "url": "https://github.com/Huluvu424242/honey-papercss-style.git"
   },
   "keywords": [
     "honey",
@@ -29,7 +29,7 @@
   "author": "Huluvu424242 alias FunThomas424242 and in real life Thomas Schubert",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Huluvu424242/honey-template/issues"
+    "url": "https://github.com/Huluvu424242/honey-papercss-style/issues"
   },
   "scripts": {
     "build": "stencil build --docs",
@@ -46,14 +46,9 @@
     "node": "14.15.0"
   },
   "dependencies": {
-    "object-hash": "2.1.1",
-    "rxjs": "6.6.3",
-    "feedme": "2.0.2",
-    "@huluvu424242/liona-feeds": "2.3.0"
   },
   "devDependencies": {
     "@stencil/core": "2.5.2",
-    "@stencil/store": "1.4.1",
     "@types/jest": "26.0.22",
     "@types/puppeteer": "5.4.0",
     "jest": "26.6.3",
