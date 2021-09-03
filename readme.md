@@ -1,29 +1,29 @@
-[![Build Status](https://travis-ci.com/Huluvu424242/honey-template.svg?branch=master)](https://travis-ci.com/Huluvu424242/honey-template)
-![Github CI](https://github.com/Huluvu424242/honey-template/workflows/Github%20CI/badge.svg)
-[![npm](https://img.shields.io/npm/v/@huluvu424242/honey-template.svg)](https://www.npmjs.com/package/@huluvu424242/honey-template)
-[![npm](https://img.shields.io/npm/dm/@huluvu424242/honey-template.svg)](https://www.npmjs.com/package/@huluvu424242/honey-template)
-[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/@huluvu424242/honey-template)
+[![Build Status](https://app.travis-ci.com/Huluvu424242/honey-papercss-style.svg?branch=master)](https://app.travis-ci.com/Huluvu424242/honey-papercss-style)
+![Github CI](https://github.com/Huluvu424242/honey-papercss-style/workflows/Github%20CI/badge.svg)
+[![npm](https://img.shields.io/npm/v/@huluvu424242/honey-papercss-style.svg)](https://www.npmjs.com/package/@huluvu424242/honey-papercss-style)
+[![npm](https://img.shields.io/npm/dm/@huluvu424242/honey-papercss-style.svg)](https://www.npmjs.com/package/@huluvu424242/honey-papercss-style)
+[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/@huluvu424242/honey-papercss-style)
 [![Donate with paypal](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://paypal.me/huluvu424242)
 ![Keybase BTC](https://img.shields.io/keybase/btc/huluvu424242)
-# honey-template 
+# honey-papercss-style 
 This project contains web components to build an news feed reader at an web site.
 (currently under development - unready and unstable)
 
 ## installation
 
-npm install --save @huluvu424242/honey-template
+npm install --save @huluvu424242/honey-papercss-style
 
 ## usage
 
 ```html
 <script 
     type="module" 
-    src='https://unpkg.com/@huluvu424242/honey-template@0.0.1/dist/honey-template/honey-template.js'>
+    src='https://unpkg.com/@huluvu424242/honey-papercss-style@0.0.1/dist/honey-papercss-style/honey-papercss-style.js'>
 </script>
 ```
-To the [demo site](https://huluvu424242.github.io/honey-template/index.html)
+To the [demo site](https://huluvu424242.github.io/honey-papercss-style/index.html)
 
-[Vision of API (under construction)](src/components/honey-template/readme.md)
+[Vision of API (under construction)](src/components/honey-papercss-style/readme.md)
 
 ## demo
 
@@ -40,17 +40,17 @@ To the [demo site](https://huluvu424242.github.io/honey-template/index.html)
 ```html
 <body id="seite" style="display: block">
 
-<h1>Nutzung der honey-template Komponente</h1>
+<h1>Nutzung der honey-papercss-style Komponente</h1>
 <span class="wichtig">!!!</span> Das ist eine Demo Seite welche alle Feature der App zeigen soll - aus diesem Grund ist auch die Statistik eingeschaltet <span class="wichtig">!!!</span><br>
 Es werden nur Daten zu den abgerufenen Feeds gespeichert (in memory) wie: url, anzahl der abfragen, anzahl valider responses<br>
 Sollten Sie die Speicherung nicht wünschen - dann geben Sie bitte keinen neuen News ein.<br>
 Vielen Dank für Ihr Verständnis. <br>
 <hr>
-<honey-template />
+<honey-papercss-style />
 
 </body>
 ```
-To the [live demo](https://huluvu424242.github.io/honey-template/index.html)
+To the [live demo](https://huluvu424242.github.io/honey-papercss-style/index.html)
 
 ## become an supporter
 
@@ -64,29 +64,9 @@ To the [live demo](https://huluvu424242.github.io/honey-template/index.html)
 
 ### vX.X.X unpublished
 
-### v1.0.0 unpublished
-
-* 
-
-### v0.0.4 published at 2021-05-02
-
-* [issue 10](https://github.com/Huluvu424242/honey-template/issues/10) cleanup
-* finalizing layout
-
-### v0.0.3 published at 2021-04-25
-
-* [issue 16](https://github.com/Huluvu424242/honey-template/issues/16) add feed working
-* [issue 13](https://github.com/Huluvu424242/honey-template/issues/13) routing added
-* [issue 11](https://github.com/Huluvu424242/honey-template/issues/11) split into multiple webcomponents
-
-### v0.0.2 published at 2021-04-11
-
-* developer release DO NOT USE
-
 ### v0.0.1 published at 2021-03-15
 
-* [issue 2](https://github.com/Huluvu424242/honey-template/issues/2) use heroku backend container
-* setup project based at https://github.com/ionic-team/stencil-component-starter rating-stencil-component
+* [issue 1](https://github.com/Huluvu424242/honey-papercss-style/issues/1) setup project
 
 ## warranty
 
@@ -98,17 +78,11 @@ MIT License
 
 ## technology used
 
-* [Web Speech API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API)
 * [Custom Elements](https://developer.mozilla.org/en-US/docs/Web/API/Window/customElements)
 * [CSS Custom Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
-* [Shadow Parts](https://developer.mozilla.org/de/docs/Web/CSS/::part)
 
 
 ## browser support
-
-Generell
-
-* [Can I use with browsers?](https://caniuse.com/#feat=speech-synthesis)
 
 ### Custom Elements
 
@@ -118,12 +92,3 @@ Generell
 
 * [Can I use with browsers?](https://caniuse.com/#search=css%20custom%20properties)
 
-### Shadow Parts
-
-Firefox
-
-Maybe you must via about:config set the layout.css.shadow-parts.enabled to true.
-
-Generell 
-
-* [Can I use with browsers?](https://caniuse.com/#feat=mdn-css_selectors_part)
