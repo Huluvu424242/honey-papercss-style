@@ -1,0 +1,1 @@
+import{p,b as s}from"./p-0f77b17b.js";(()=>{const s=import.meta.url,r={};return""!==s&&(r.resourcesUrl=new URL(".",s).href),p(r)})().then((p=>s([["p-0d003744",[[0,"honey-papercss-style"]]]],p)));
