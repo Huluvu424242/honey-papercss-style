@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/Huluvu424242/honey-papercss-style.svg?branch=master)](https://travis-ci.com/Huluvu424242/honey-papercss-style)
+[![Build Status](https://app.travis-ci.com/Huluvu424242/honey-papercss-style.svg?branch=master)](https://app.travis-ci.com/Huluvu424242/honey-papercss-style)
 ![Github CI](https://github.com/Huluvu424242/honey-papercss-style/workflows/Github%20CI/badge.svg)
 [![npm](https://img.shields.io/npm/v/@huluvu424242/honey-papercss-style.svg)](https://www.npmjs.com/package/@huluvu424242/honey-papercss-style)
 [![npm](https://img.shields.io/npm/dm/@huluvu424242/honey-papercss-style.svg)](https://www.npmjs.com/package/@huluvu424242/honey-papercss-style)
