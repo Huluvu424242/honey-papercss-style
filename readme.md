@@ -64,7 +64,7 @@ To the [live demo](https://huluvu424242.github.io/honey-papercss-style/index.htm
 
 ### vX.X.X unpublished
 
-### v0.0.1 published at 2021-03-15
+### v0.0.1 published at 2021-09-03
 
 * [issue 1](https://github.com/Huluvu424242/honey-papercss-style/issues/1) setup project
 
