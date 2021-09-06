@@ -6,49 +6,70 @@
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
-    interface HoneyPapercssStyle {
+    interface HoneyApplyStyle {
+        /**
+          * tagName of honey style sheet to apply e.g. 'honey-papercss-style'
+         */
+        "theme": string;
     }
-    interface HoneyStyle {
+    interface HoneyDefineStyle {
         /**
           * Get the current theme as string in lowercase of tag name.
          */
         "getTheme": () => Promise<string>;
     }
+    interface HoneyPapercssStyle {
+    }
 }
 declare global {
+    interface HTMLHoneyApplyStyleElement extends Components.HoneyApplyStyle, HTMLStencilElement {
+    }
+    var HTMLHoneyApplyStyleElement: {
+        prototype: HTMLHoneyApplyStyleElement;
+        new (): HTMLHoneyApplyStyleElement;
+    };
+    interface HTMLHoneyDefineStyleElement extends Components.HoneyDefineStyle, HTMLStencilElement {
+    }
+    var HTMLHoneyDefineStyleElement: {
+        prototype: HTMLHoneyDefineStyleElement;
+        new (): HTMLHoneyDefineStyleElement;
+    };
     interface HTMLHoneyPapercssStyleElement extends Components.HoneyPapercssStyle, HTMLStencilElement {
     }
     var HTMLHoneyPapercssStyleElement: {
         prototype: HTMLHoneyPapercssStyleElement;
         new (): HTMLHoneyPapercssStyleElement;
     };
-    interface HTMLHoneyStyleElement extends Components.HoneyStyle, HTMLStencilElement {
-    }
-    var HTMLHoneyStyleElement: {
-        prototype: HTMLHoneyStyleElement;
-        new (): HTMLHoneyStyleElement;
-    };
     interface HTMLElementTagNameMap {
+        "honey-apply-style": HTMLHoneyApplyStyleElement;
+        "honey-define-style": HTMLHoneyDefineStyleElement;
         "honey-papercss-style": HTMLHoneyPapercssStyleElement;
-        "honey-style": HTMLHoneyStyleElement;
     }
 }
 declare namespace LocalJSX {
+    interface HoneyApplyStyle {
+        /**
+          * tagName of honey style sheet to apply e.g. 'honey-papercss-style'
+         */
+        "theme"?: string;
+    }
+    interface HoneyDefineStyle {
+    }
     interface HoneyPapercssStyle {
     }
-    interface HoneyStyle {
-    }
     interface IntrinsicElements {
+        "honey-apply-style": HoneyApplyStyle;
+        "honey-define-style": HoneyDefineStyle;
         "honey-papercss-style": HoneyPapercssStyle;
-        "honey-style": HoneyStyle;
     }
 }
 export { LocalJSX as JSX };
 declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
+            "honey-apply-style": LocalJSX.HoneyApplyStyle & JSXBase.HTMLAttributes<HTMLHoneyApplyStyleElement>;
+            "honey-define-style": LocalJSX.HoneyDefineStyle & JSXBase.HTMLAttributes<HTMLHoneyDefineStyleElement>;
             "honey-papercss-style": LocalJSX.HoneyPapercssStyle & JSXBase.HTMLAttributes<HTMLHoneyPapercssStyleElement>;
-            "honey-style": LocalJSX.HoneyStyle & JSXBase.HTMLAttributes<HTMLHoneyStyleElement>;
         }
     }
 }
