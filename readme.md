@@ -6,8 +6,7 @@
 [![Donate with paypal](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://paypal.me/huluvu424242)
 ![Keybase BTC](https://img.shields.io/keybase/btc/huluvu424242)
 # honey-papercss-style 
-This project contains web components to build an news feed reader at an web site.
-(currently under development - unready and unstable)
+This project contains web components for styling honey webcomponents. 
 
 ## installation
 
@@ -18,7 +17,7 @@ npm install --save @huluvu424242/honey-papercss-style
 ```html
 <script 
     type="module" 
-    src='https://unpkg.com/@huluvu424242/honey-papercss-style@0.0.1/dist/honey-papercss-style/honey-papercss-style.js'>
+    src='https://unpkg.com/@huluvu424242/honey-papercss-style@0.0.2/dist/honey-papercss-style/honey-papercss-style.esm.js'>
 </script>
 ```
 To the [demo site](https://huluvu424242.github.io/honey-papercss-style/index.html)
@@ -40,13 +39,11 @@ To the [demo site](https://huluvu424242.github.io/honey-papercss-style/index.htm
 ```html
 <body id="seite" style="display: block">
 
-<h1>Nutzung der honey-papercss-style Komponente</h1>
-<span class="wichtig">!!!</span> Das ist eine Demo Seite welche alle Feature der App zeigen soll - aus diesem Grund ist auch die Statistik eingeschaltet <span class="wichtig">!!!</span><br>
-Es werden nur Daten zu den abgerufenen Feeds gespeichert (in memory) wie: url, anzahl der abfragen, anzahl valider responses<br>
-Sollten Sie die Speicherung nicht wünschen - dann geben Sie bitte keinen neuen News ein.<br>
-Vielen Dank für Ihr Verständnis. <br>
-<hr>
-<honey-papercss-style />
+<h1>Nutzung der honey-papercss-style Komponenten</h1>
+
+<honey-style>
+    <honey-papercss-style />
+</honey-style>
 
 </body>
 ```
@@ -63,6 +60,10 @@ To the [live demo](https://huluvu424242.github.io/honey-papercss-style/index.htm
 ## releaselog
 
 ### vX.X.X unpublished
+
+### v0.0.2 published at 2021-09-06
+
+* [issue 4](https://github.com/Huluvu424242/honey-papercss-style/issues/4) honey-style component added
 
 ### v0.0.1 published at 2021-09-03
 
