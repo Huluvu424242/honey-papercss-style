@@ -20,10 +20,10 @@
 <script>
 
   async function zeigeTheme() {
-    await customElements.whenDefined('honey-style');
-    const styleElements = document.querySelector('honey-style');
+    await customElements.whenDefined('honey-define-style');
+    const styleElements = document.querySelector('honey-define-style');
     const themeName = await styleElements.getTheme();
-    alert("Theme:"+themeName);
+    alert("Theme:" + themeName);
   }
 </script>
 
@@ -32,9 +32,9 @@
 
 <!-- der Style bewirkt das grundsätzliche Seiten Design kann aber auch in den Komponenten selbst genutzt werden. -->
 <honey-define-style>
-  <honey-papercss-style></honey-papercss-style>
+  <honey-papercss-style/>
 </honey-define-style>
-<honey-news></honey-news>
+<honey-news/>
 
 </body>
 </html>
