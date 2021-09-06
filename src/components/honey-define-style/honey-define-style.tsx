@@ -1,10 +1,10 @@
 import {Component, Element, h, Host, Method} from '@stencil/core';
 
 @Component({
-  tag: 'honey-style',
-  styleUrl: 'honey-style.css',
+  tag: 'honey-define-style',
+  styleUrl: 'honey-define-style.css',
 })
-export class HoneyStyle {
+export class HoneyDefineStyle {
 
   @Element() host: HTMLElement;
 
