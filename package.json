@@ -1,7 +1,7 @@
 {
   "name": "@huluvu424242/honey-papercss-style",
-  "version": "0.0.1",
-  "description": "News reader web component for custom urls.",
+  "version": "0.0.2",
+  "description": "styles to apply with honey webcomponents.",
   "main": "dist/index.cjs.js",
   "module": "dist/custom-elements/index.js",
   "es2015": "dist/esm/index.mjs",
