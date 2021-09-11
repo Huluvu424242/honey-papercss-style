@@ -31,6 +31,7 @@
     "url": "https://github.com/Huluvu424242/honey-papercss-style/issues"
   },
   "scripts": {
+    "postinstall": "cp ./node_modules/papercss/dist/paper.min.css src/components/honey-papercss-style/assets/",
     "build": "stencil build --docs",
     "start": "stencil build --dev --watch --serve",
     "test": "echo stencil test --spec --e2e",
@@ -45,7 +46,8 @@
     "node": "14.15.0"
   },
   "dependencies": {
-    "@stencil/core": "2.8.0"
+    "@stencil/core": "2.8.0",
+    "papercss": "1.8.2"
   },
   "devDependencies": {
     "@types/jest": "26.0.22",

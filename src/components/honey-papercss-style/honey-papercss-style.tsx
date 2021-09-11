@@ -8,7 +8,7 @@ import {Component, getAssetPath, h} from '@stencil/core';
 export class HoneyPapercssStyle {
 
   render() {
-    const stylePath: string = getAssetPath('./assets/paper.min-1.8.2.css');
+    const stylePath: string = getAssetPath('./assets/paper.min.css');
     return <link rel="stylesheet" href={stylePath}/>
   }
 }

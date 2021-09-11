@@ -8,12 +8,6 @@ import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
     interface HoneyPapercssStyle {
     }
-    interface HoneyStyle {
-        /**
-          * Get the current theme as string in lowercase of tag name.
-         */
-        "getTheme": () => Promise<string>;
-    }
 }
 declare global {
     interface HTMLHoneyPapercssStyleElement extends Components.HoneyPapercssStyle, HTMLStencilElement {
@@ -22,25 +16,15 @@ declare global {
         prototype: HTMLHoneyPapercssStyleElement;
         new (): HTMLHoneyPapercssStyleElement;
     };
-    interface HTMLHoneyStyleElement extends Components.HoneyStyle, HTMLStencilElement {
-    }
-    var HTMLHoneyStyleElement: {
-        prototype: HTMLHoneyStyleElement;
-        new (): HTMLHoneyStyleElement;
-    };
     interface HTMLElementTagNameMap {
         "honey-papercss-style": HTMLHoneyPapercssStyleElement;
-        "honey-style": HTMLHoneyStyleElement;
     }
 }
 declare namespace LocalJSX {
     interface HoneyPapercssStyle {
     }
-    interface HoneyStyle {
-    }
     interface IntrinsicElements {
         "honey-papercss-style": HoneyPapercssStyle;
-        "honey-style": HoneyStyle;
     }
 }
 export { LocalJSX as JSX };
@@ -48,7 +32,6 @@ declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
             "honey-papercss-style": LocalJSX.HoneyPapercssStyle & JSXBase.HTMLAttributes<HTMLHoneyPapercssStyleElement>;
-            "honey-style": LocalJSX.HoneyStyle & JSXBase.HTMLAttributes<HTMLHoneyStyleElement>;
         }
     }
 }
