@@ -19,6 +19,10 @@ npm install --save @huluvu424242/honey-papercss-style
     type="module" 
     src='https://unpkg.com/@huluvu424242/honey-papercss-style@0.0.2/dist/honey-papercss-style/honey-papercss-style.esm.js'>
 </script>
+<script 
+    nomodule 
+    src='https://unpkg.com/@huluvu424242/honey-papercss-style@0.0.2/dist/cjs/honey-papercss-style.cjs.js'>
+</script>
 ```
 To the [demo site](https://huluvu424242.github.io/honey-papercss-style/index.html)
 
@@ -41,9 +45,11 @@ To the [demo site](https://huluvu424242.github.io/honey-papercss-style/index.htm
 
 <h1>Nutzung der honey-papercss-style Komponenten</h1>
 
-<honey-style>
+<honey-define-style>
     <honey-papercss-style />
-</honey-style>
+</honey-define-style>
+
+<your-component/>
 
 </body>
 ```
