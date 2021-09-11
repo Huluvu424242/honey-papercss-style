@@ -17,11 +17,11 @@ npm install --save @huluvu424242/honey-papercss-style
 ```html
 <script 
     type="module" 
-    src='https://unpkg.com/@huluvu424242/honey-papercss-style@0.0.2/dist/honey-papercss-style/honey-papercss-style.esm.js'>
+    src='https://unpkg.com/@huluvu424242/honey-papercss-style@0.0.3/dist/honey-papercss-style/honey-papercss-style.esm.js'>
 </script>
 <script 
     nomodule 
-    src='https://unpkg.com/@huluvu424242/honey-papercss-style@0.0.2/dist/cjs/honey-papercss-style.cjs.js'>
+    src='https://unpkg.com/@huluvu424242/honey-papercss-style@0.0.3/dist/cjs/honey-papercss-style.cjs.js'>
 </script>
 ```
 To the [demo site](https://huluvu424242.github.io/honey-papercss-style/index.html)
@@ -67,6 +67,11 @@ To the [live demo](https://huluvu424242.github.io/honey-papercss-style/index.htm
 
 ### vX.X.X unpublished
 
+### v0.0.3 published at 2021-09-11
+
+*  honey-style-it used
+
+
 ### v0.0.2 published at 2021-09-06
 
 * [issue 4](https://github.com/Huluvu424242/honey-papercss-style/issues/4) honey-style component added
@@ -85,6 +90,9 @@ MIT License
 
 ## technology used
 
+credits to the power of:
+
+* [PaperCSS](https://www.getpapercss.com/) (ISC License)
 * [Custom Elements](https://developer.mozilla.org/en-US/docs/Web/API/Window/customElements)
 * [CSS Custom Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
 
