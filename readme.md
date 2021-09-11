@@ -85,6 +85,9 @@ MIT License
 
 ## technology used
 
+credits to the power of:
+
+* [PaperCSS](https://www.getpapercss.com/) (ISC License)
 * [Custom Elements](https://developer.mozilla.org/en-US/docs/Web/API/Window/customElements)
 * [CSS Custom Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
 
