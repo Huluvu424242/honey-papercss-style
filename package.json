@@ -1,6 +1,6 @@
 {
   "name": "@huluvu424242/honey-papercss-style",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "styles to apply with honey webcomponents.",
   "main": "dist/index.cjs.js",
   "module": "dist/custom-elements/index.js",
