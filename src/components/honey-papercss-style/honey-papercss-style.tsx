@@ -20,7 +20,11 @@ export class HoneyPapercssStyle {
     // remove class paper from body
     let classes: string = document.body.getAttribute("class");
     classes = classes.replace("paper", "");
-    document.body.setAttribute("class", classes);
+    if( classes.trim().length>0 ) {
+      document.body.setAttribute("class", classes);
+    }else{
+      document.body.removeAttribute("class");
+    }
   }
 
   render() {
